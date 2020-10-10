@@ -1,0 +1,39 @@
+img {
+    height: 60px;
+    width: 40px;
+}
+
+img {
+
+    transition: transform .2s;
+}
+
+img:hover {
+
+    transform: scale(0.9);
+}
+
+body {
+    text-align: center;
+    background-color: azure;
+    color: cornflowerblue;
+}
+
+.line {
+    height: 6px;
+    width: 30px;
+    margin: auto;
+    color: bisque;
+}
+
+#app {
+    width: 170%;
+    height: 800%;
+    background-color: azure;
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: lightcyan;
+}
